@@ -32,6 +32,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.media.capture.classification=classH \
 	ro.url.safetylegal=http://www.motorola.com/staticfiles/Support/legal/?model=MB525
 
+PRODUCT_COPY_FILES += \
+	device/motorola/jordan/media_profiles.xml:system/etc/media_profiles.xml
+
 # copy all vendor (motorola) kernel modules to system/lib/modules
 PRODUCT_COPY_FILES += $(shell test -d vendor/motorola/jordan/lib/modules &&  \
 	find vendor/motorola/jordan/lib/modules -name '*.ko' \
