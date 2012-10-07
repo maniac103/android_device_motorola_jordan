@@ -26,7 +26,6 @@
 
 # Model variant (DEFY_FROYO, DEFY_GINGER)
 BOARD_DEFY_MODEL := DEFY_FROYO
-TARGET_USE_JORDAN_COMMON := true
 TARGET_CUSTOM_RELEASETOOL := ./device/motorola/jordan/releasetools/squisher
 
 include device/motorola/jordan-common/BoardConfigCommon.mk
